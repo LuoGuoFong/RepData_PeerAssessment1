@@ -11,8 +11,6 @@
 library(ggplot2)
 library(scales)
 library(Hmisc)
-download.file("https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip",temp)
-unzip(temp, "activity.csv")
 actdata <- read.csv("activity.csv")
 ```
 ### 2. Process/transform the data (if necessary) into a format suitable for your analysis
