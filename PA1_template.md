@@ -67,7 +67,7 @@ qplot(stepsperday, xlab='Total Steps Per Day')
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
 
-![](https://github.com/LuoGuoFong/RepData_PeerAssessment1/blob/master/figure/unnamed-chunk-5-1.png)<!-- -->
+![](https://github.com/LuoGuoFong/RepData_PeerAssessment1/blob/master/figure/unnamed-chunk-5-1.png)
 
 ### 2. Calculate and report the mean and median total number of steps taken per day
 
@@ -95,7 +95,7 @@ ggplot(data=avgsteps, aes(x=interval, y=avgsteps)) +
     ylab("Average Number of Steps Taken") 
 ```
 
-![](RepData_PeerAssessment1/figure/unnamed-chunk-8-1.png)<!-- -->
+![](https://github.com/LuoGuoFong/RepData_PeerAssessment1/blob/master/figure/unnamed-chunk-8-1.png)
 
 ### 2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -132,7 +132,7 @@ stepsbydayfill <- tapply(actfill$steps, actfill$date, sum)
 qplot(stepsbydayfill, xlab='Total steps per day (Imputed)', ylab='Frequency using binwith 500', binwidth=500)
 ```
 
-![](RepData_PeerAssessment1/figure/unnamed-chunk-12-1.png)<!-- -->
+![](https://github.com/LuoGuoFong/RepData_PeerAssessment1/blob/master/figure/unnamed-chunk-12-1.png)
 
 ### ... and Calculate and report the mean and median total number of steps taken per day. 
 
@@ -166,4 +166,4 @@ ggplot(avgactfill, aes(interval, steps)) +
     ylab("avarage number of steps")
 ```
 
-![](RepData_PeerAssessment1/figure/unnamed-chunck-15-1.png)<!-- -->
+![](https://github.com/LuoGuoFong/RepData_PeerAssessment1/blob/master/figure/unnamed-chunck-15-1.png)
