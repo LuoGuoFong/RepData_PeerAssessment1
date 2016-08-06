@@ -67,7 +67,7 @@ qplot(stepsperday, xlab='Total Steps Per Day')
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
 
-![](RepData_PeerAssessment1/figure/unnamed-chunk-5-1.png)<!-- -->
+![](https://github.com/LuoGuoFong/RepData_PeerAssessment1/blob/master/figure/unnamed-chunk-5-1.png)<!-- -->
 
 ### 2. Calculate and report the mean and median total number of steps taken per day
 
